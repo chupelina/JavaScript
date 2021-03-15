@@ -50,7 +50,6 @@ describe('E2E tests', function () {
     after(async () => {
         await browser.close();
     });
-
     beforeEach(async () => {
         context = await browser.newContext();
 
